@@ -1,6 +1,8 @@
 *{
     box-sizing: border-box;
 }
+.txt-verde-claro{ color: #8fc62c; }
+.txt-verde-escuro{ color: #00ad8e; }
 html,
 body{
     margin: 0;
