@@ -8,8 +8,6 @@ function conn_mysql(){
     $password = '';
     $database = 'belair';
     
-    $conn = new mysqli($servername, $username, $password, $database);
-
     $conn = new PDO("mysql:host=$servername;
 	                   port=$porta;
 					   dbname=$database", 

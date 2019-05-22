@@ -72,17 +72,25 @@
             foreach($resultados as $jogo){
                 echo "<tr><td>".utf8_decode($jogo["titulo"])."</td>";
                 echo "<td>".utf8_decode($jogo["datajogo"])."</td>";
+
                 if( $jogo["nome"] == ''){
                     echo "<td> - </td>";
                 } else {
                     echo "<td>".utf8_decode($jogo["nome"])."</td>";
                 }
+
                 echo '<td><a href="./jogodetalhe.php?id='.htmlspecialchars($jogo["jogoid"]).'">
                     <i class="fas fa-file-alt" title="detalhes"></i>';
-                if($jogo["finalizado"] != '1'){
+
+                    if($jogo["finalizado"] != '1'){
                     echo '<a href="./encerrarjogo.php?id='.htmlspecialchars($jogo["jogoid"]).'">
                         <i class="fas fa-ban" title="encerrar"></i></td></tr>'; 
-                }
+                    }
+
+                    if($jogo["finalizado"] == '1'){
+                        echo '<a href="./removerjogo.php?id='.htmlspecialchars($jogo["jogoid"]).'">
+                            <i class="fas fa-trash" title="remover"></i></td></tr>'; 
+                    }
             }
             echo '</tbody></table>';
         } else{

@@ -18,10 +18,10 @@
             
             <button class="btn btn-lg btn-info btn-block" type="submit">Entrar</button>
             
-            <a href="./OAuthRequest.php?api=facebook" class="btn btn-lg btn-primary btn-block mt-2">
+            <a href="./auth/OAuthRequest.php?api=facebook" class="btn btn-lg btn-primary btn-block mt-2">
                 <i class="fab fa-facebook-square mr-3" style="font-size:30px;"></i>Logar com Facebook
             </a>
-            <a href="./OAuthRequest.php?api=google" class="btn btn-lg btn-danger btn-block mt-2">
+            <a href="./auth/OAuthRequest.php?api=google" class="btn btn-lg btn-danger btn-block mt-2">
                 <i class="fab fa-google mr-3" style="font-size:30px;"></i>Logar com Google
             </a>
     

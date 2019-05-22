@@ -1,0 +1,12 @@
+{
+    "name": "rodrigo.barbosa/first-app_auth-facebook-google",
+    "authors": [
+        {
+            "name": "rodrigo.b.silva",
+            "email": "rodrigo.barbosa@fcamara.com.br"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}

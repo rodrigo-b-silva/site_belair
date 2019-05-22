@@ -3,6 +3,10 @@
 }
 .txt-verde-claro{ color: #8fc62c; }
 .txt-verde-escuro{ color: #00ad8e; }
+.txt-verde-dark{ color: #00796a; }
+.bg-verde-claro{ background-color: #8fc62c; }
+.bg-verde-escuro{ background-color: #00ad8e; }
+.bg-verde-dark{ background-color: #00796a; }
 html,
 body{
     margin: 0;
@@ -91,4 +95,21 @@ body{
 }
 .dashboard-content img{
     width: 900px;
+}
+.boxdash{
+    border-radius: 30%;
+}
+.box-detail{
+    border-radius: 10px;
+    color: #333;
+}
+.box-detail .dashnumber{
+    font-size: 40px;
+    font-weight: bold;
+}
+.box-detail i{
+    font-size: 45px;
+}
+.img-vencedor{
+    max-width: 90%;
 }
